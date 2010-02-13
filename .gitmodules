@@ -1,0 +1,3 @@
+[submodule "assets/features/plugins/sap-ep"]
+	path = assets/features/plugins/sap-ep
+	url = git@github.com:totori/totori-sapep-plugin.git
