@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Totori
 Bundle-SymbolicName: org.totori;singleton:=true
-Bundle-Version: 0.0.4.vqualifier
+Bundle-Version: 0.0.5.vqualifier
 Bundle-Activator: org.totori.Activator
 Bundle-Vendor: org.totori
 Require-Bundle: org.eclipse.ui,
