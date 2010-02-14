@@ -120,7 +120,6 @@ public class NewTotoriWizard extends Wizard implements INewWizard {
          createFolderHelper(root.getFolder(project.getFullPath().append("config")), monitor);
          createFolderHelper(root.getFolder(project.getFullPath().append("ext")), monitor);
          createFolderHelper(root.getFolder(project.getFullPath().append("ext").append("nircmd")), monitor);
-         createFolderHelper(root.getFolder(project.getFullPath().append("ext").append("watir")), monitor);
          createFolderHelper(root.getFolder(project.getFullPath().append("features")), monitor);
          createFolderHelper(root.getFolder(project.getFullPath().append("features").append("plugins")), monitor);
          createFolderHelper(root.getFolder(project.getFullPath().append("features").append("steps")), monitor);
@@ -135,10 +134,6 @@ public class NewTotoriWizard extends Wizard implements INewWizard {
          assets.add("ext/nircmd/nircmd.chm");
          assets.add("ext/nircmd/nircmd.exe");
          assets.add("ext/nircmd/nircmdc.exe");
-         assets.add("ext/watir/AutoItX3.dll");
-         assets.add("ext/watir/IEDialog.dll");
-         assets.add("ext/watir/README");
-         assets.add("ext/watir/win32ole.so");
          assets.add("features/support/env.rb");
          assets.add("features/support/functions.rb");
          assets.add("features/support/screenshots.rb");
