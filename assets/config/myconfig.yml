@@ -6,17 +6,6 @@
 #
 config:
   
-  portal:
-    
-    # This is the root URL of your portal
-    # (i.e. http://myserver:50000/irj/portal)
-    root_url: http://srm.tatamotors.com/irj/portal
-    
-    # These credentials will be used as default for logging in the portal
-    valid_credential:
-      name: user_01
-      password: abcd1234
-    
   watir:
     
     # Choose the browser used for the automated behavior testing

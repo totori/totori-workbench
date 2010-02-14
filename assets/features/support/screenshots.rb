@@ -7,7 +7,7 @@
 module Screenshots
   def add_screenshot(description)
     id = "screenshot_#{Time.new.to_i}"
-	  @browser.bring_to_front
+    @browser.bring_to_front
     take_screenshot(id)
     embed("#{@config.report['screenshots']['dir']}/#{id}.png|#{description}", "image/png")
   end

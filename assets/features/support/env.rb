@@ -81,7 +81,6 @@ browser.bring_to_front if config.watir['bring_to_front']
 
 Before do
   @browser = browser
-  @portal = Portal.new(@browser)
 end
 
 # "after all"
