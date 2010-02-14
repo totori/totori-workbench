@@ -123,9 +123,6 @@ public class NewTotoriWizard extends Wizard implements INewWizard {
          createFolderHelper(root.getFolder(project.getFullPath().append("ext").append("watir")), monitor);
          createFolderHelper(root.getFolder(project.getFullPath().append("features")), monitor);
          createFolderHelper(root.getFolder(project.getFullPath().append("features").append("plugins")), monitor);
-         createFolderHelper(root.getFolder(project.getFullPath().append("features").append("plugins").append("sap-ep")), monitor);
-         createFolderHelper(root.getFolder(project.getFullPath().append("features").append("plugins").append("sap-ep").append("examples")), monitor);
-         createFolderHelper(root.getFolder(project.getFullPath().append("features").append("plugins").append("sap-ep").append("steps")), monitor);
          createFolderHelper(root.getFolder(project.getFullPath().append("features").append("steps")), monitor);
          createFolderHelper(root.getFolder(project.getFullPath().append("features").append("support")), monitor);
          createFolderHelper(root.getFolder(project.getFullPath().append("reports")), monitor);
@@ -134,7 +131,7 @@ public class NewTotoriWizard extends Wizard implements INewWizard {
          project.setDescription(description,new SubProgressMonitor(monitor,10));
          monitor.subTask("Creating files");
          Vector<String> assets = new Vector<String>();
-         assets.add("config/myconfig.example.yml");
+         assets.add("config/myconfig.yml");
          assets.add("ext/nircmd/nircmd.chm");
          assets.add("ext/nircmd/nircmd.exe");
          assets.add("ext/nircmd/nircmdc.exe");
@@ -142,13 +139,6 @@ public class NewTotoriWizard extends Wizard implements INewWizard {
          assets.add("ext/watir/IEDialog.dll");
          assets.add("ext/watir/README");
          assets.add("ext/watir/win32ole.so");
-         assets.add("features/plugins/sap-ep/portal.rb");
-         assets.add("features/plugins/sap-ep/examples/001_connexion_portail.i18n.fr.feature");
-         assets.add("features/plugins/sap-ep/examples/001_logging_in_and_off.feature");
-         assets.add("features/plugins/sap-ep/examples/002_custom_wdp_application.feature");
-         assets.add("features/plugins/sap-ep/examples/003_user_administration.feature");
-         assets.add("features/plugins/sap-ep/steps/portal_basic_steps.i18n.fr.rb");
-         assets.add("features/plugins/sap-ep/steps/portal_basic_steps.rb");
          assets.add("features/support/env.rb");
          assets.add("features/support/functions.rb");
          assets.add("features/support/screenshots.rb");
