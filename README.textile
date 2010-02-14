@@ -1,0 +1,21 @@
+h1. *Totori workbench*
+
+p. _Totori - the User Acceptance Testing Workbench_
+
+h2. Overview
+
+h3. Status
+
+Totori development status is currently "Pre-Alpha":http://en.wikipedia.org/wiki/Software_release_life_cycle#Pre-Alpha.
+
+h3. Installation
+
+See "http://totori.org/":http://totori.org/
+
+h2. License
+
+Totori is licensed under the original "MIT license":http://creativecommons.org/licenses/MIT/.
+
+h2. Contributors
+
+* "arnaud":http://github.com/arnaud (author)
